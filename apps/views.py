@@ -38,3 +38,5 @@ def work(request, id):
     url_obj = Userurls.objects.get(urlint=id)
     stored_url = url_obj.inputurl
     return redirect(stored_url)
+
+    
