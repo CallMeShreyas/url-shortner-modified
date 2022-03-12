@@ -27,7 +27,7 @@ def stored(request):
     # url_obj = Userurls.objects.get(inputurl=input_url)
     # url_obj = Userurls.objects.get(urlint=fid)
 
-    b1 = 'sma11-ur1.herokuapp.com/'
+    b1 = 'skur1.herokuapp.com/'
     # b1='127.0.0.1:8000/'
     fid = str(fid)
     reduced_url = b1 + fid
